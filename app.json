@@ -3,6 +3,14 @@
     "pages/index/index",
     "pages/index/mine"
   ],
+  "subPackages": [
+    {
+      "root": "pages/views",
+      "pages": [
+        "pages/detail/index"
+      ]
+    }
+  ],
   "tabBar": {
     "color": "#333",
     "selectedColor": "#858444",
