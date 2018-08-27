@@ -30,12 +30,21 @@
         </block>
      </swiper>
   </view>
-  <scroll-view class='section-scroll'>
+  <scroll-view class='section-scroll' scroll-y='true'>
       <view class='title'>
         <label style='background:rgba(43,209,255,1);'></label>
         <image src='../resources/icon_30.png' style='width: 73rpx;height: 33rpx;margin-left: 17rpx;margin-right: 16rpx;'></image>
         <text>[您的专业洗车顾问]</text>
         <label style='background:rgba(51,51,51,1);'></label>
+      </view>
+      <view class='item' wx:for='{{IndexRouteBtn}}' wx:key='id' style="background-image:url('{{item.img}}')">
+        <view class='til'>
+            {{item.title}}
+        </view>
+        <view class='tips'>
+          {{item.tip}}
+        </view>
+        <button class='btn'>{{item.btn}}</button>
       </view>
   </scroll-view>
 </view>
