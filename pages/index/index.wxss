@@ -1,21 +1,59 @@
 /**index.wxss**/
-.userinfo {
+page{
+  height: 100%;
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tips{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 70rpx;
+  box-shadow: 1rpx 6rpx 9rpx rgba(0,0,0,0.1);
+}
+.tips>image{
+  margin-left: 29rpx;
+}
+.tips{
+  width: 100%;
+  color:rgba(43,209,255,1);
+  font-size:28rpx;
+}
+.tips>text{
+  margin-left: 34rpx;
+}
+/* .tips swiper{
+  margin-left: 5rpx;
+} */
+.tips swiper-item{
+  line-height: 72rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.section-scroll{
+  flex: 1;
+  background: rgba(17,199,255,.07);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.section-scroll>.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 51rpx;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.section-scroll>.title label{
+  width:15rpx;
+  height:15rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
+.section-scroll>.title text{
+  font-weight:bold;
+  color:rgba(51,51,51,1);
+  font-size: 28rpx;
 }

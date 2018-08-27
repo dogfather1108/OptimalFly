@@ -1,4 +1,41 @@
 <!--index.wxml-->
-<view class="container">
-  1111
+<view class="container" style='width: 100%;'>
+  <swiper indicator-dots="true" indicator-color='rgba(255,255,255,.3)' indicator-active-color='#ffffff' circular='true'
+    autoplay="true" interval="4000" duration="1000"  style='height:300rpx;'>
+    <block>
+      <swiper-item>
+        <image src="../resources/bg_05.png" class="slide-image" style='width:100%;' mode='widthFix' />
+      </swiper-item>
+    </block>
+    <block>
+      <swiper-item>
+        <image src="../resources/bg_05.png" class="slide-image" style='width:100%;' mode='widthFix' />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='tips'>
+    <image src='../resources/icon_17.png' style='width:31rpx;height:30rpx;'></image>
+    <text>平台公告：</text>
+     <swiper indicator-dots="true" indicator-color='rgba(255,255,255,.3)' indicator-active-color='#ffffff' circular='true'
+     autoplay="true" interval="4000" duration="1000" vertical='true'  style='height:70rpx;width:400rpx;'>
+        <block style="height:100rpx">
+          <swiper-item  style="height:100rpx">
+            大大飒飒大苏打撒旦啊实打实大苏打实打实大苏打撒旦
+          </swiper-item>
+        </block>
+        <block  style="height:100rpx">
+          <swiper-item  style="height:100rpx">
+            啊倒萨十大认为u也i如因非阿姨夫i阿姨发撒大苏打实打实的
+          </swiper-item>
+        </block>
+     </swiper>
+  </view>
+  <scroll-view class='section-scroll'>
+      <view class='title'>
+        <label style='background:rgba(43,209,255,1);'></label>
+        <image src='../resources/icon_30.png' style='width: 73rpx;height: 33rpx;margin-left: 17rpx;margin-right: 16rpx;'></image>
+        <text>[您的专业洗车顾问]</text>
+        <label style='background:rgba(51,51,51,1);'></label>
+      </view>
+  </scroll-view>
 </view>
