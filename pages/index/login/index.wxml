@@ -1,0 +1,23 @@
+<!--pages/index/login/index.wxml-->
+<view class='contain' style="background-image: url('/pages/resources/bg_04.png');">
+  <image src='/pages/resources/icon_31.png'></image>
+  <view class='section'>
+    <view>
+      <label>
+        <image src='/pages/resources/icon_16.png' style='width:44rpx;height:44rpx;'></image>
+      </label>
+      <input type='number' placeholder='请输入手机号' placeholder-style='color:rgba(153,153,153,1);'></input>
+    </view>
+    <view>
+      <label>
+        <image src='/pages/resources/icon_28.png' style='width:44rpx;height:44rpx;'></image>
+      </label>
+      <input type='number' placeholder='请输入验证码' placeholder-style='color:rgba(153,153,153,1);'></input>
+      <label wx:if="{{!IsGetIdenf}}" catchtap='getIdenf'>获取验证码</label>
+      <label wx:else>{{count}} s</label>
+    </view>
+    <button>
+      立即验证
+    </button>
+  </view>
+</view>

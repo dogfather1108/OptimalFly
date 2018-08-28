@@ -1,1 +1,10 @@
 /**app.wxss**/
+view,label,text,button,textarea{
+  font-family:'PingFang-SC-Bold';
+}
+button{
+  border: none;
+}
+button::after{
+  border: none;
+}
