@@ -7,27 +7,31 @@
     {
       "root": "pages/views",
       "pages": [
-        "pages/detail/index"
+        "pages/detail/index",
+        "pages/mine/index",
+        "pages/mine/wallet",
+        "pages/mine/AboutUs",
+        "pages/mine/MyTask"
       ]
     }
   ],
   "tabBar": {
     "color": "#333",
-    "selectedColor": "#858444",
+    "selectedColor": "#0CCAFF",
     "backgroundColor":"#fff",
     "borderStyle":"#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"pages/resources/icon_menu_nor_02.png",
-        "selectedIconPath":"pages/resources/icon_menu_sel_02.png"
+        "iconPath":"pages/resources/icon_33.png",
+        "selectedIconPath":"pages/resources/icon_34.png"
       },
       {
         "pagePath": "pages/index/mine",
         "text": "我的",
-        "iconPath": "pages/resources/icon_menu_nor_04.png",
-        "selectedIconPath": "pages/resources/icon_menu_sel_04.png"
+        "iconPath": "pages/resources/icon_23.png",
+        "selectedIconPath": "pages/resources/icon_24.png"
       }
     ]
   },

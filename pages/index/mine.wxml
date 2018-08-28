@@ -1,1 +1,36 @@
-<text>222</text>
+<view class='contain'>
+  <view class='header' style="background-image:url('../resources/bg_05.png');background-size:cover;">
+    <image src='../resources/icon_18.png' style='width:160rpx;height:160rpx;'></image>
+    <view>
+      海绵宝宝
+      <label>
+        认证车主
+        <image src='../resources/icon_09.png' style='width:24rpx;height:24rpx;'></image>
+      </label>
+    </view>
+  </view>
+  <navigator style='margin-top:15rpx;'>
+    <view class='item'>
+      <image src='../resources/icon_14.png' style='width:50rpx;height:50rpx;'></image>
+      我的信息
+    </view>
+  </navigator>
+  <navigator style='margin-top:2rpx;'>
+    <view class='item'>
+      <image src='../resources/icon_12.png' style='width:50rpx;height:50rpx;'></image>
+      我的任务
+    </view>
+  </navigator>
+  <navigator style='margin-top:2rpx;'>
+    <view class='item'>
+      <image src='../resources/icon_06.png' style='width:50rpx;height:50rpx;'></image>
+      我的钱包
+    </view>
+  </navigator>
+  <navigator style='margin-top:2rpx;'>
+    <view class='item'>
+      <image src='../resources/icon_03.png' style='width:50rpx;height:50rpx;'></image>
+      服务条款
+    </view>
+  </navigator>
+</view>
