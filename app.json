@@ -9,10 +9,12 @@
       "root": "pages/views",
       "pages": [
         "pages/detail/index",
+        "pages/pro/servicePro",
         "pages/mine/index",
         "pages/mine/wallet",
         "pages/mine/AboutUs",
-        "pages/mine/MyTask"
+        "pages/mine/MyTask",
+        "pages/fun_module/recharge"
       ]
     }
   ],

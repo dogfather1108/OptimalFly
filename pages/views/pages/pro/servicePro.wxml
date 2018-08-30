@@ -1,0 +1,31 @@
+<view class='contain'>
+  <view class='tarbar'>
+    <label class="{{typePro == 'TJ' ? 'borderColor':''}}">推荐</label>
+    <label class="{{typePro == 'JX' ? 'borderColor':''}}">精洗</label>
+    <label class="{{typePro == 'JXX' ? 'borderColor':''}}">简洗</label>
+    <label class="{{typePro == 'BY' ? 'borderColor':''}}">保养</label>
+  </view>
+  <scroll-view scroll-y='true'>
+    <view class='item' wx:for='{{22}}' wx:key='id'>
+      <image src='../../../resources/bg_05.png' mode='aspectFill' style='width:150rpx;height:150rpx;'></image>
+      <view>
+        <view>
+          <text>定制是大数据的煎熬客户</text>
+          <text>内容详情显示与此，如字数过多做省略号处理定制是大数据的煎熬客户是多久啊华盛顿</text>
+        </view>
+        <view>
+          <view>
+            <label>￥</label>
+            <view>65</view>
+            <label>普通价</label>
+          </view>
+          <view>
+            <label>￥</label>
+            <view>65</view>
+            <image src='../../../resources/icon_10.png' style='width:103rpx;height:37rpx;'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

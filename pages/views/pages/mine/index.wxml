@@ -1,13 +1,40 @@
 <view>
   <view class='item'>
     <text>昵称</text>
-    <text>海绵宝宝</text>
+    <text style='color:rgba(153,153,153,1);'>海绵宝宝</text>
   </view>
   <view class='item'>
     <text>认证</text>
     <view>
-      <image src='../../../resources/icon_21.png'></image>
+      <image src='../../../resources/icon_21.png' style='width:34rpx;height:34rpx;'></image>
       <text>未认证</text>
     </view>
   </view>
+  <view class='item'>
+    <text>车牌号</text>
+    <view>
+      <text>川A55688</text>
+    </view>
+  </view>
+  <view class='item'>
+    <text>信誉等级</text>
+    <view>
+      <image src='../../../resources/icon_26.png' wx:for='{{5}}' style='width:42rpx;height:41rpx;' wx:key='id'></image>
+      <text style='margin-left:10rpx;'>未认证</text>
+    </view>
+  </view>
+  <view class='item'>
+    <text>身份证号</text>
+    <view>
+      <text>555555555555555555555</text>
+    </view>
+  </view>
+  <view class='item'>
+    <text>电话号码</text>
+    <view>
+      <text>1231231151</text>
+      <image src='../../../resources/icon_25.png' style='width:26rpx;height:26rpx;margin-left:10rpx;'></image>
+    </view>
+  </view>
+  <button>保存信息</button>
 </view>

@@ -1,6 +1,6 @@
 /**app.wxss**/
 view,label,text,button,textarea{
-  font-family:'PingFang-SC-Bold';
+  font-family:'PingFang-SC';
 }
 button{
   border: none;

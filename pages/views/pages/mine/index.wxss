@@ -1,0 +1,44 @@
+page{
+  height: 100%;
+  background: #EEE;
+}
+page>view{
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 19rpx;
+}
+.item{
+  background: white;
+  height: 120rpx;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48rpx;
+  font-size: 34rpx;
+}
+.item view text{
+  color:rgba(153,153,153,1);
+}
+.item view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* .item:nth-of-type(1){
+  margin-top: 19rpx;
+} */
+.item:nth-of-type(n+2){
+  margin-top: 2rpx;
+}
+button{
+  width:700rpx;
+  height:100rpx;
+  background:rgba(43,209,255,1);
+  border-radius:50px;
+  margin: auto;
+  margin-top: 250rpx;
+  color: white;
+}
