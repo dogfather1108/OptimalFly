@@ -14,6 +14,7 @@
         "pages/mine/wallet",
         "pages/mine/AboutUs",
         "pages/mine/MyTask",
+        "pages/mine/trading",
         "pages/fun_module/recharge"
       ]
     }

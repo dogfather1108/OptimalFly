@@ -1,0 +1,14 @@
+<view class='contain'>
+  <scroll-view scroll-y='true'> 
+    <view class='item' wx:for='{{10}}' wx:key='id'>
+      <text>消费名称消费名称消费名称</text>
+      <view>
+        <text>2018-08-23 14:00</text>
+        <view>
+          <label>-￥</label>
+          <text>45.00</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

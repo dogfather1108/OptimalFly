@@ -1,1 +1,42 @@
-<view></view>
+<view class='contain'>
+  <view class='tarbar'>
+    <label>全部</label>
+    <label>进行中</label>
+    <label>已完成</label>
+  </view>
+  <scroll-view scroll-y='true'>
+    <view class='item' wx:for='{{10}}' wx:key='id'>
+      <view class='item-t'>
+        <image src='/pages/resources/bg_05.png' style='width:170rpx;height:170rpx;' mode='aspectFill'></image>
+        <view>
+          <view>
+            <text>任务名称1234</text>
+            <text>2018/2/2-2018/1/1</text> 
+          </view>
+          <view>
+            <text>任务红利</text>
+            <view>
+              <image src='/pages/resources/icon_05.png' style='width:32rpx;height:32rpx;'></image>
+              <label>￥</label>
+              <text>2000</text>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class='item-m'>
+        <view>
+          <image  style='width:32rpx;height:32rpx;' src='/pages/resources/icon_02.png'></image>
+          <text>车型要求</text>
+          <text>大宗铜氨丝大手大脚哈吉斯大街上的</text>
+        </view>
+        <view style='margin-top:15rpx;'>
+          <image  style='width:32rpx;height:32rpx;' src='/pages/resources/icon_07.png'></image>
+          <text>参与人数</text>
+          <text>25/25</text>
+        </view>
+      </view>
+
+    </view>
+  </scroll-view>
+</view>
